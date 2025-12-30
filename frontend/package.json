@@ -1,0 +1,23 @@
+{
+  "name": "ecommerce-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.2"
+  },
+  "scripts": {
+    "start": "npx serve -s build -l 3000",
+    "dev": "npx vite --host 0.0.0.0 --port 5173",
+    "build": "npx vite build"
+  },
+  "description": "This is a light React frontend (Vite compatible) using fetch to talk to the backend.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^7.3.0"
+  }
+}
