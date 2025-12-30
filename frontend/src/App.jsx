@@ -62,7 +62,7 @@ export default function App() {
       </nav>
       <main className="container">
         <Routes>
-          <Route path="/" element={token ? <ProductList token={token} /> : <Login setToken={t => { localStorage.setItem('token', t); setToken(t) }} />} />
+          <Route path="/" element={token ? <ProductList token={token} /> : <Login setToken={t => { localStorage.setItem('token', t); setToken(t) }n={token} /> : <Login setToken={t => { localStorage.setItem('token', t); setToken(t) }} />} />
           <Route path="/product/:id" element={<ProductDetails token={token} />} />
           <Route path="/cart" element={<Cart token={token} />} />
           <Route path="/orders" element={<Orders token={token} />} />
